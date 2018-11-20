@@ -1,0 +1,224 @@
+<html>
+    <head>
+        
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <title>About me</title></head>
+    <body>
+         <style> 
+          body, .jumbotron {
+              background-color:#7395AE;
+          }
+          .nav{
+              background-color:#557A95; 
+          }
+          .jumbotron h1{
+              color: white;
+             
+          }
+           .h1{
+                  color:white;
+              }
+          .image{
+              border: solid;
+              border-color: white;
+          }
+          
+          
+      </style>
+        <!-- As a heading -->
+      <div class="nav" style=" border-bottom: solid orange;">
+<nav class="navbar navbar-dark bg" >
+  <span class="navbar-brand mb-0 h1">Hadi Atwi</span>
+    <div style="text-align: : right">
+    <span class="Home" style="padding-left:900px;"><a href="index.html"style="text-decoration: none;">Home </a></span>
+        <span class="About" style="padding-left: 30px"><a href="About.html"style="text-decoration: none;"> About</a></span>
+        <span class="Contact me"style="padding-left:30px"><a href="contact.html"style="text-decoration: none;">Contact me</a></span>
+    </div>
+</nav>
+          </div>
+        
+        
+        
+        
+        
+    <script>
+        var i=0;
+        var images=[];
+        var time=2000;
+        
+        
+        //Image List
+        images[0]='img/born.jpg';
+        images[1]='img/graduation.jpg';
+        images[2]='img/graduni.jpg';
+        images[3]='img/work.jpg';
+         
+        
+        //Change Image
+        function changeImg(){
+            document.slide.src=images[i];
+            
+            if(i<images.length-1){
+                i++;
+            }    else{
+                    i=0;
+                }
+            
+            setTimeout("changeImg()", time);
+        }
+        window.onload=changeImg;
+        
+        
+        </script>    
+        <style>
+            .slide{
+                border:white solid;
+                
+            }
+            .title{
+                padding-top:50px;
+            }
+            
+        </style>
+        <div class="title">
+        <div class="container h1">
+            More about me:
+        </div>
+            </div>
+        <div class="container text lead">
+            Here is a slideshow of highlights that happened in my life
+        </div>
+        <br>
+        
+        <div class="text-center">
+        <img class="slide" name="slide" width="400" height="200">
+        </div>
+          <br>
+        <br>
+        <br>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <footer  style="height: 200px;background-color:#557A95; " >
+    <div class="container">
+        <div class="footer">  
+            <text class="h1 lead" style="font-size:30px;">Location </text>
+            <div class="text" style="text-align: center;margin-top:-40px; margin-bottom: 0;padding-bottom:0;"><text class="h1 lead" style="font-size:30px;">Socials</text>
+            </div>
+            
+            <br>
+            <div class="lead">
+            <p > Highlight me in the streets</p>
+            <p  style="text-align: center;margin-top:-45px; margin-bottom: 0;padding-bottom:0; font-size:Arcon;"> Contact me through my socials</p>
+            </div>
+            <div >
+                <p style="text-align: right;margin-top:-30px;" class="lead"> Please hire me.</p>
+            </div>
+            <div style="margin-right:100px;">
+            
+            <a href="#" class="fa fa-facebook " >
+            </a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            </div>
+            
+            
+        </div>
+    </div>
+      </footer>
+      <style>
+         .footer {
+              padding-top:50px; 
+            
+          }
+          /* Style all font awesome icons */
+          
+        .fa {
+            padding: 0px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin:0px;
+            border-radius: 20px;
+            
+            
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            margin-left:475px;
+        
+        }
+
+        .fa-instagram {
+            background: #125688;
+        color: white;
+          }
+          .fa-youtube {
+            background: #bb0000;
+            color: white;
+            }
+
+          
+      </style>
+     
+    </body>
+
+</html>
