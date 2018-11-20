@@ -1,0 +1,67 @@
+
+          body, .jumbotron {
+              background-color:#7395AE;
+          }
+          .nav{
+              background-color:#557A95; 
+          }
+          .jumbotron h1{
+              color: white;
+             
+          }
+           .h1{
+                  color:white;
+              }
+          .image{
+              border: solid;
+              border-color: white;
+          }
+          
+          
+      
+         .footer {
+              padding-top:50px; 
+            
+          }
+          /* Style all font awesome icons */
+          
+        .fa {
+            padding: 0px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin:0px;
+            border-radius: 20px;
+            
+            
+        }
+
+        /* Add a hover effect if you want */
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            margin-left:475px;
+        
+        }
+
+        .fa-instagram {
+            background: #125688;
+        color: white;
+          }
+          .fa-youtube {
+            background: #bb0000;
+            color: white;
+            }
+
+          
+
+     
+      
